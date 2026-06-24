@@ -10,14 +10,35 @@ DOI: [10.1073/pnas.0401422101](https://doi.org/10.1073/pnas.0401422101)
 
 The objective of this report is to reproduce and extend the original findings by investigating how cigarette smoking alters airway epithelial gene expression, and whether these molecular changes persist after smoking cessation.
 
-The analysis uses the GEO dataset **GSE994**, containing gene expression profiles from:
 
+---
+
+## Dataset
+
+Source: GEO (Gene Expression Omnibus)
+
+Accession number: GSE994
+
+Samples:
 - Current smokers
 - Former smokers
 - Never smokers
 
-with a total of **75 patient samples** and **22,215 transcriptomic features**.
+Total samples: 75
 
+Features: 22,215 probe sets
+
+---
+
+## Repository structure
+
+```text
+├── code/                # R scripts used for the analysis
+├── original_paper/      # Original publication by Spira et al. (2004)
+├── Report.html          # Interactive analysis report
+├── README.md
+└── LICENSE
+```
 ---
 
 ## Main analyses
@@ -88,19 +109,38 @@ to visualize smoking-associated transcriptomic changes across the complete datas
 
 ---
 
-## Project report
+## Report
 
-The complete interactive HTML report is available as:
+The complete analysis is available in:
 
-`LSTAT2340.html`
+- `Report.html`
 
-⚠️ **Note:** GitHub cannot display a preview of this HTML file because it exceeds GitHub's file rendering limits.
+GitHub may not render large HTML files directly.
+Download the repository and open the file locally in a web browser.
 
 To view the report:
 
 1. Download the repository ZIP file
 2. Extract the files locally
-3. Open `report.html` in a web browser
+3. Open `Report.html` in a web browser
+
+---
+
+## Reproducing the analysis
+
+Requirements:
+
+- R >= 4.3
+- Bioconductor
+- limma
+- GEOquery
+- tidyverse
+
+Clone the repository:
+
+git clone https://github.com/Mateus-Auza/smoking-gene-expression-analysis.git
+
+Open the scripts in the `code/` directory and run them sequentially.
 
 ---
 
