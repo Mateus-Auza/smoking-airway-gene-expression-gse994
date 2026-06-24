@@ -100,7 +100,7 @@ To view the report:
 
 1. Download the repository ZIP file
 2. Extract the files locally
-3. Open `LSTAT2340.html` in a web browser
+3. Open `report.html` in a web browser
 
 ---
 
