@@ -143,12 +143,6 @@ The complete analysis is available in:
 GitHub may not render large HTML files directly.
 Download the repository and open the file locally in a web browser.
 
-To view the report:
-
-1. Download the repository ZIP file
-2. Extract the files locally
-3. Open `Report.html` in a web browser
-
 ---
 
 ## Reproducing the analysis
