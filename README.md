@@ -163,6 +163,7 @@ To reproduce the report:
 
 ```bash
 quarto render code/Omics_project_LSTAT2340.qmd
+```
 ---
 
 ## Authors
