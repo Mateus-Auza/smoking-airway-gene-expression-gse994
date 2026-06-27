@@ -50,7 +50,7 @@ Features: 22,215 probe sets
 
 ```text
 ├── code/
-│   └── Omics_project_LSTAT2340.qmd
+│   └── GSE994_Smoking_Transcriptome_Analysis.qmd
 ├── figures/
 │   ├── PCA_plot.png
 │   ├── Reanalysis_1_figure_comparison.png
@@ -59,8 +59,9 @@ Features: 22,215 probe sets
 ├── original_paper/
 │   └── spira-et-al-2004-effects-of-cigarette-smoke-on-the-human-airway-epithelial-cell-transcriptome.pdf
 ├── presentation/
-│   └── Données omiques.pdf
-├── Report.html
+│   └── GSE994_Project_presentation.pdf
+├── report/
+│   └── Report.pdf
 ├── README.md
 └── LICENSE
 ```
@@ -162,7 +163,7 @@ git clone https://github.com/Mateus-Auza/omics-project.git
 To reproduce the report:
 
 ```bash
-quarto render code/Omics_project_LSTAT2340.qmd
+quarto render code/GSE994_Smoking_Transcriptome_Analysis.qmd
 ```
 ---
 
